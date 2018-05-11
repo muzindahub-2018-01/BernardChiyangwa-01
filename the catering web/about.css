@@ -1,0 +1,30 @@
+body {
+  font: 16px/1.5 Arieal, Helvetica,sans-serif;
+  background-size: cover;
+ background-color:#EBEBEB;
+background-size:cover;
+
+margin:5.5px;
+
+}
+h1 {
+	text-align: center;
+	background-image:url(img/plash.jpg);
+}
+
+
+.main-footer{
+  position: fixed;
+  text-align: center;
+   overflow: hidden;
+  background-color:#2b3137;
+   left: 0;
+   bottom: 0;
+   width: 99.5%;
+  
+   color: white;
+   text-align: center;
+padding-top:10px;
+padding-bottom:10px;
+
+}

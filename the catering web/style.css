@@ -1,0 +1,385 @@
+/*===================================
+---------top navigation------
+===================================*/
+.topnav {
+  overflow: hidden;
+  background-color:#2b3137;
+  
+padding-top:20px;
+padding-bottom:7px;
+display:inline-block;
+text-align:center;
+font-weight: bolder;
+text-shadow:2px 2px 15px  black;
+font-family: sans-serif;
+position: fixed;
+width: 99.5%;
+padding-top-left:40px;
+
+ transition: top 0.3s;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#F0FFFF;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4AF50;
+  color: white;
+}
+ 
+
+a:link{
+  color:#EBEBEB;
+}
+
+a:visited{
+  color: white;
+}
+
+
+
+/*===================================
+---------logo name styles------
+===================================*/
+
+
+.logo-name {
+color:#2b3137;
+text-shadow:2px 2px 15px  #D1D1D1;
+font-family: palatino;
+background-image:url(img/plash.jpg);
+background-attachment: fixed;
+background-size:cover;
+padding-top:200px;
+padding-bottom:200px;
+margin-top:15px;
+font-size:90px;
+padding-left:30px;
+padding-right:25px;
+text-align: center;
+
+
+}
+
+/*===================================
+---------Headline styles------
+===================================*/
+
+
+#headline {
+ text-align:center;
+font-weight:bold;
+margin-top:5px;
+color:#D1D1D1;
+text-shadow:2px 2px 10px :#2b3137;
+
+}
+
+/*===================================
+---------lead  styles------
+===================================*/
+
+ 
+.lead {
+color:#EBEBEB;
+text-align:center;
+font-weight:bold;
+}
+
+/*===================================
+--------- all h2 styles------
+===================================*/
+
+ 
+h2{
+text-align:center;
+color:#EBEBEB;
+text-shadow:2px 2px 10px :#2b3137;
+font-family: palatino;
+
+}
+
+/*===================================
+---------paragraph  styles------
+===================================*/
+
+ 
+ p{
+color:#C2D6EA;
+font-family:sans-serif;
+
+}
+
+
+/*===================================
+---------list styles------
+===================================*/
+
+
+h2, li {
+
+text-align:center;
+color:#C2D6EA;
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+/*===================================
+---------secondary-content styles------
+===================================*/
+
+/*===================================
+--------- body styles------
+===================================*/
+
+body {
+  font: 16px/1.5 Arieal, Helvetica,sans-serif;
+  background-size: cover;
+ background-color:#2b3137;
+margin:auto 2rem;
+
+
+
+
+}
+
+
+/*===================================
+---------all images styles------
+===================================*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding-left: 10px; /* Some padding */
+padding-right:10px;
+    width: 250px; /* Set a small width */
+
+margin-left:20px;
+margin-right:20px;
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ 
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+
+
+
+/*===================================
+---------social links styles------
+===================================*/
+
+/*
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  list-style-type: none;
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+*/
+
+
+/*===================================
+---------main footer styles------
+===================================*/
+
+
+
+
+}
+.main-footer{
+  /*position: fixed;*/
+  text-align: center;
+   overflow: hidden;
+  background-color:#2b3137;
+   left: 0;
+   bottom: 0;
+   width: 99.5%;
+ 
+   color: white;
+   text-align: center;
+padding-top:10px;
+padding-bottom:10px;
+
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+
+
+
+/*===================================
+-------Mobile first media Queries*--
+===================================*/
+/*smaller than mobile*/
+@media(min-width: 100px){
+
+
+body{
+margin:auto;
+}
+.topnav{
+display:inline;
+}
+
+.logo-name{display:inline;}
+h2,p,li{display:inline;
+}
+
+
+
+
+
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+.topnav{
+display:inline;
+}
+h2,p,li{display:inline;
+}
+.logo-name{display:inline;}
+body{
+margin:auto;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+.topnav{
+display:inline;
+}
+
+body{
+margin:auto;
+}
+h2,p,li{display:inline;
+}
+.logo-name{display:inline;}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+body{
+margin:auto;
+}
+.topnav{
+display:inline;
+}
+
+.logo-name{display:inline;}
+h2,p,li{display:inline;
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+body{
+margin:auto;
+}
+.topnav{
+display:inline;
+}
+
+.logo-name{display:inline;}
+h2,p,li{display:inline;
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+body{
+margin:auto;
+}
+.topnav{
+display:inline;
+}
+h2,p,li{display:inline;
+}
+
+
+.logo-name{display:inline;
+font-size:13rem;}
+
+
+

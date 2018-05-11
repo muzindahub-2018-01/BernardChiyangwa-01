@@ -1,0 +1,106 @@
+
+/*===================================
+---------main footer styles------
+===================================*/
+body {
+  font: 16px/1.5 Arieal, Helvetica,sans-serif;
+  background-size: cover;
+background-color:#EBEBEB;
+
+margin:5.5px;
+
+}
+
+
+/*
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+
+
+/
+/*===================================
+---------contacts header styles------
+===================================*/
+#main-header{
+	text-align: center;
+	background-image:url(img/plash.jpg);
+background-attachment: fixed;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*===================================
+---------main footer styles------
+===================================*/
+.main-footer{
+  position: fixed;
+  text-align: center;
+   overflow: hidden;
+  background-color:#2b3137;
+   left: 0;
+   bottom: 0;
+   width: 99.5%;
+  
+   color: white;
+   text-align: center;
+padding-top:10px;
+padding-bottom:10px;
+
+}
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+
+
+
